@@ -1,0 +1,26 @@
+.parent{
+  width: 100vw;
+  height: auto;
+  z-index: -9;
+}
+.parent-ele{
+ display: grid;
+ grid-template-rows:1fr 1fr 2fr ;
+ row-gap: 20px;
+ border: 1px solid red;
+ width: 30%;
+ margin:5% auto;
+ padding: 30px;
+}
+input{
+  width: 90%;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+button{
+  width: 100px;
+  height: 40px;
+  margin: 10% auto auto 40%;
+}
